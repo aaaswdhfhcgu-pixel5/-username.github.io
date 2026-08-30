@@ -1,0 +1,1104 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/>```html
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>بیوگرافی رسمی | حاجی عبدالغفور امینی (زوری)</title>
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Vazirmatn', Tahoma, Arial, sans-serif;
+        }
+        body {
+            background: #f0ece6;
+            color: #1e1e1e;
+            line-height: 1.7;
+            padding: 16px;
+        }
+        .site-wrapper {
+            max-width: 1300px;
+            margin: 0 auto;
+            background: #ffffff;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.06);
+            border-radius: 32px;
+            overflow: hidden;
+            border: 1px solid rgba(0,0,0,0.02);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .main-col {
+            flex: 1;
+            min-width: 300px;
+        }
+        /* ===== پنل مدیریت ===== */
+        .admin-side {
+            width: 280px;
+            background: #f8f5f1;
+            border-right: 2px solid #e2d7cc;
+            padding: 22px 18px;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            border-radius: 32px 0 0 32px;
+            min-height: 500px;
+        }
+        .admin-side h3 {
+            font-size: 1.1rem;
+            color: #1e2a2b;
+            border-bottom: 2px solid #b8860b;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .admin-side .login-box {
+            background: #fff;
+            border-radius: 18px;
+            padding: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+            border: 1px solid #e7dfd7;
+        }
+        .admin-side .login-box label {
+            font-size: 0.8rem;
+            color: #4d3e31;
+            display: block;
+            margin-top: 10px;
+        }
+        .admin-side .login-box input {
+            width: 100%;
+            padding: 8px 12px;
+            border-radius: 30px;
+            border: 1px solid #ccc2b7;
+            background: #fcfaf8;
+            font-size: 0.9rem;
+            margin-top: 4px;
+            outline: none;
+            transition: 0.15s;
+        }
+        .admin-side .login-box input:focus {
+            border-color: #b8860b;
+            box-shadow: 0 0 0 3px rgba(184,134,11,0.15);
+        }
+        .admin-side .login-box .login-btn {
+            width: 100%;
+            margin-top: 14px;
+            background: #1e2a2b;
+            color: #fff;
+            border: none;
+            padding: 9px 0;
+            border-radius: 40px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.15s;
+            font-size: 0.95rem;
+        }
+        .admin-side .login-box .login-btn:hover {
+            background: #2f4547;
+        }
+        .admin-side .login-box .status {
+            margin-top: 12px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #4d6b3b;
+        }
+        .admin-side .admin-tools {
+            background: #fff;
+            border-radius: 18px;
+            padding: 16px;
+            border: 1px solid #e7dfd7;
+            display: none;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .admin-side .admin-tools.active {
+            display: flex;
+        }
+        .admin-side .admin-tools .tool-btn {
+            background: #f0ebe4;
+            border: none;
+            padding: 8px 14px;
+            border-radius: 40px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: #1e2a2b;
+            cursor: pointer;
+            transition: 0.1s;
+            text-align: right;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .admin-side .admin-tools .tool-btn:hover {
+            background: #d8cfc4;
+        }
+        .admin-side .admin-tools .tool-btn.add-photo {
+            background: #b8860b20;
+            border: 1px dashed #b8860b;
+        }
+        .admin-side .admin-tools .tool-btn.add-photo:hover {
+            background: #b8860b40;
+        }
+        .admin-note {
+            font-size: 0.75rem;
+            color: #7a6b5e;
+            background: #ede7df;
+            padding: 8px 14px;
+            border-radius: 30px;
+            text-align: center;
+            margin-top: 6px;
+        }
+        /* ===== هدر ===== */
+        .header-flag {
+            background: linear-gradient(135deg, #000000 0%, #000000 20%, #d00000 40%, #d00000 70%, #2e8b57 70%, #2e8b57 100%);
+            padding: 20px 30px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 4px solid #b8860b;
+        }
+        .header-flag h1 {
+            color: #fff;
+            font-size: 1.6rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+            letter-spacing: 0.5px;
+        }
+        .header-flag .sub {
+            color: #f5e6c4;
+            font-size: 0.9rem;
+            background: rgba(0,0,0,0.3);
+            padding: 6px 16px;
+            border-radius: 40px;
+            backdrop-filter: blur(2px);
+        }
+        .profile-cover {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 25px;
+            padding: 30px 30px 10px 30px;
+            background: #fcfaf7;
+            border-bottom: 1px solid #e9e1d9;
+        }
+        .avatar-frame {
+            flex-shrink: 0;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background: #e0d6cb;
+            box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+            overflow: hidden;
+            border: 4px solid #b8860b;
+            transition: 0.2s;
+            position: relative;
+            cursor: default;
+        }
+        .avatar-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .avatar-frame .upload-hint {
+            display: none;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0,0,0,0.7);
+            color: #fff;
+            font-size: 0.7rem;
+            text-align: center;
+            padding: 4px 0;
+            border-radius: 0 0 50% 50% / 0 0 20px 20px;
+        }
+        .avatar-frame.editable .upload-hint {
+            display: block;
+        }
+        .avatar-frame.editable {
+            cursor: pointer;
+        }
+        .profile-title h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1e2a2b;
+        }
+        .profile-title .tag {
+            display: inline-block;
+            background: #d00000;
+            color: #fff;
+            padding: 2px 18px;
+            border-radius: 30px;
+            font-size: 0.8rem;
+            letter-spacing: 0.5px;
+            margin-top: 5px;
+        }
+        .profile-title .meta {
+            margin-top: 10px;
+            color: #4d3e31;
+        }
+        .slogan-box {
+            background: #f0ebe4;
+            padding: 14px 28px;
+            margin: 5px 30px 20px 30px;
+            border-radius: 60px;
+            text-align: center;
+            font-weight: 500;
+            font-size: 1.1rem;
+            border-right: 4px solid #d00000;
+            border-left: 4px solid #2e8b57;
+            color: #1f2a2b;
+            box-shadow: inset 0 1px 6px rgba(0,0,0,0.02);
+        }
+        .slogan-box span {
+            color: #b8860b;
+            font-weight: 700;
+        }
+        .content {
+            padding: 20px 30px 35px;
+        }
+        .section {
+            margin-bottom: 40px;
+            border-bottom: 1px dashed #ddd6ce;
+            padding-bottom: 30px;
+            position: relative;
+        }
+        .section:last-of-type {
+            border-bottom: none;
+        }
+        .section-title {
+            font-size: 1.7rem;
+            font-weight: 700;
+            color: #1e2a2b;
+            padding-right: 15px;
+            border-right: 8px solid #b8860b;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .section-title small {
+            font-size: 0.9rem;
+            font-weight: 400;
+            color: #6d5f52;
+            background: #eee8e0;
+            padding: 0 16px;
+            border-radius: 30px;
+        }
+        .section-remove-btn {
+            display: none;
+            margin-top: 15px;
+            background: #d00000;
+            color: #fff;
+            border: none;
+            padding: 6px 18px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: 0.15s;
+        }
+        .section-remove-btn:hover {
+            background: #a00000;
+        }
+        .section-remove-btn.visible {
+            display: inline-block;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px 20px;
+            background: #f8f5f1;
+            padding: 18px 22px;
+            border-radius: 20px;
+        }
+        .info-item {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        .info-item .label {
+            font-weight: 600;
+            color: #4d3e31;
+            min-width: 80px;
+        }
+        .info-item .value {
+            color: #1f2a2b;
+        }
+        .text-block {
+            background: #faf8f6;
+            padding: 18px 22px;
+            border-radius: 20px;
+            margin-top: 10px;
+            line-height: 2;
+            text-align: justify;
+        }
+        .text-block ul {
+            list-style: none;
+            padding-right: 8px;
+        }
+        .text-block ul li {
+            margin-bottom: 6px;
+        }
+        /* ===== گالری ===== */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 18px;
+        }
+        .gallery-item {
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            transition: 0.2s;
+            background: #f0eae2;
+            border: 1px solid #e2d7cc;
+            aspect-ratio: 1 / 1;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            cursor: pointer;
+        }
+        .gallery-item .empty-placeholder {
+            color: #a99b8d;
+            font-size: 0.9rem;
+        }
+        /* دکمه‌های گالری - فقط در حالت مدیریت نمایش داده می‌شوند */
+        .gallery-item .add-photo-btn {
+            display: none !important;
+            position: absolute;
+            inset: 0;
+            background: rgba(0,0,0,0.4);
+            color: #fff;
+            font-size: 2.5rem;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(3px);
+            cursor: pointer;
+            z-index: 3;
+        }
+        .gallery-item .add-photo-btn span {
+            background: #b8860b;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .gallery-item .remove-photo-btn {
+            display: none !important;
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            background: rgba(200,0,0,0.85);
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            z-index: 5;
+            transition: 0.15s;
+        }
+        .gallery-item .remove-photo-btn:hover {
+            background: #d00000;
+            transform: scale(1.1);
+        }
+        /* کلاس‌های مدیریت برای نمایش دکمه‌ها */
+        .gallery-item.editable .add-photo-btn {
+            display: flex !important;
+        }
+        .gallery-item.editable .remove-photo-btn {
+            display: flex !important;
+        }
+        .gallery-item.editable .empty-placeholder {
+            display: none;
+        }
+        /* ===== لایت‌باکس ===== */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.85);
+            backdrop-filter: blur(6px);
+            align-items: center;
+            justify-content: center;
+            z-index: 999;
+            padding: 40px;
+        }
+        .lightbox.active {
+            display: flex;
+        }
+        .lightbox img {
+            max-width: 90%;
+            max-height: 85%;
+            border-radius: 24px;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+            border: 3px solid #fff;
+            object-fit: contain;
+        }
+        .lightbox .close-lb {
+            position: absolute;
+            top: 30px;
+            left: 40px;
+            font-size: 2.8rem;
+            color: #fff;
+            cursor: pointer;
+            background: rgba(0,0,0,0.3);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.2s;
+        }
+        .lightbox .close-lb:hover {
+            background: #b8860b;
+        }
+        /* ===== فوتر ===== */
+        .footer-links {
+            background: #1e2a2b;
+            color: #ddd6ce;
+            padding: 25px 30px;
+            border-radius: 0 0 28px 28px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+        }
+        .footer-links .copy-link {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: #2f3d3e;
+            padding: 6px 18px 6px 12px;
+            border-radius: 40px;
+        }
+        .footer-links .copy-link input {
+            background: transparent;
+            border: none;
+            color: #f0ece6;
+            font-size: 0.9rem;
+            direction: ltr;
+            width: 200px;
+            padding: 6px 0;
+            outline: none;
+            border-bottom: 1px dashed #6b7a7a;
+        }
+        .footer-links .copy-link button {
+            background: #b8860b;
+            border: none;
+            color: #fff;
+            padding: 5px 16px;
+            border-radius: 30px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: 0.15s;
+        }
+        .footer-links .copy-link button:hover {
+            background: #d9a31a;
+        }
+        .footer-links .credit {
+            font-size: 0.9rem;
+            color: #aaa69e;
+        }
+        /* ===== کلاس‌های ادیتور ===== */
+        .editable-text {
+            cursor: default;
+            transition: 0.1s;
+        }
+        .editable-text.editable-mode {
+            cursor: pointer;
+            outline: 2px dashed #b8860b40;
+            outline-offset: 4px;
+            border-radius: 8px;
+        }
+        .editable-text.editable-mode:hover {
+            outline-color: #b8860b80;
+            background: #faf8f6;
+        }
+        /* ===== واکنش‌گرا ===== */
+        @media (max-width: 850px) {
+            .site-wrapper { flex-direction: column-reverse; }
+            .admin-side {
+                width: 100%;
+                border-right: none;
+                border-bottom: 2px solid #e2d7cc;
+                border-radius: 0;
+                padding: 16px 20px;
+                min-height: auto;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                gap: 12px;
+            }
+            .admin-side h3 { margin-bottom: 0; flex: 1; }
+            .admin-side .login-box { flex: 1; min-width: 200px; }
+            .admin-side .admin-tools { flex: 1; min-width: 200px; }
+            .header-flag { flex-direction: column; align-items: start; gap: 8px; }
+            .profile-cover { flex-direction: column; align-items: center; text-align: center; }
+            .avatar-frame { width: 120px; height: 120px; }
+            .slogan-box { font-size: 0.95rem; padding: 10px 18px; }
+            .footer-links { flex-direction: column; align-items: stretch; }
+            .copy-link input { width: 100%; }
+        }
+        @media (max-width: 480px) {
+            .content { padding: 10px 15px; }
+            .section-title { font-size: 1.3rem; }
+            .info-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="site-wrapper">
+
+    <!-- ===== پنل مدیریت ===== -->
+    <aside class="admin-side" id="adminSide">
+        <h3>🔐 پنل مدیریت</h3>
+        <div class="login-box">
+            <label>👤 نام کاربری</label>
+            <input type="text" id="adminUser" placeholder="نام کاربری را وارد کنید">
+            <label>🔑 رمز عبور</label>
+            <input type="password" id="adminPass" placeholder="رمز عبور را وارد کنید">
+            <button class="login-btn" id="loginBtn">ورود به پنل</button>
+            <div class="status" id="loginStatus">⚪️ خارج از پنل</div>
+        </div>
+
+        <div class="admin-tools" id="adminTools">
+            <button class="tool-btn add-photo" id="addPhotoGlobal">➕ افزودن عکس به گالری</button>
+            <button class="tool-btn" id="editTextGlobal">✏️ ویرایش متن (دابل‌کلیک)</button>
+            <button class="tool-btn" id="addSectionBtn">📄 افزودن بخش جدید</button>
+            <button class="tool-btn" id="removeSectionBtn">🗑️ حذف بخش انتخاب‌شده</button>
+            <button class="tool-btn" id="refreshAdmin">🔄 بروزرسانی حالت</button>
+            <div class="admin-note">🔹 برای ویرایش متن روی آن دابل‌کلیک کنید.<br>🔹 دکمه‌های مدیریت فقط برای شما نمایش داده می‌شوند.</div>
+        </div>
+    </aside>
+
+    <!-- ===== ستون اصلی ===== -->
+    <div class="main-col" id="mainCol">
+
+        <header class="header-flag" id="headerFlag">
+            <h1 id="headerTitle">🇦🇫 حاجی عبدالغفور امینی (زوری)</h1>
+            <div class="sub" id="headerSub">بیوگرافی رسمی • افتخار قوم زوری</div>
+        </header>
+
+        <div class="profile-cover" id="profileSection">
+            <div class="avatar-frame" id="avatarContainer">
+                <img id="profileAvatar" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 400 400'%3E%3Crect width='400' height='400' fill='%23b8860b'/%3E%3Ccircle cx='200' cy='140' r='80' fill='%23f5e6c4'/%3E%3Ccircle cx='200' cy='300' r='110' fill='%23f5e6c4'/%3E%3C/svg%3E" alt="حاجی عبدالغفور امینی (زوری)">
+                <div class="upload-hint">🖱️ کلیک برای تغییر عکس</div>
+            </div>
+            <div class="profile-title">
+                <h2 id="profileName">حاجی عبدالغفور امینی (زوری)</h2>
+                <div class="tag" id="profileTag">فرمانده جهادی • رئیس شورای قوم زوری</div>
+                <div class="meta" id="profileMeta"><span style="font-weight:600;">تولد:</span> ۱۳۵۰ • <span style="font-weight:600;">ولایت:</span> فراه، بالابلوک</div>
+            </div>
+        </div>
+
+        <div class="slogan-box" id="sloganBox">
+            🇦🇫 <span id="sloganText">«این ملت با اتحاد ساخته میشود»</span> 🇦🇫
+        </div>
+
+        <div class="content" id="contentArea">
+
+            <!-- اطلاعات شخصی -->
+            <section class="section" id="infoSection" data-section="info">
+                <div class="section-title" id="infoTitle">📋 اطلاعات شخصی <small>بیوگرافی</small></div>
+                <div class="info-grid" id="infoGrid">
+                    <div class="info-item"><span class="label">نام کامل:</span><span class="value" id="fullName">حاجی عبدالغفور امینی (زوری)</span></div>
+                    <div class="info-item"><span class="label">تولد:</span><span class="value" id="birthInfo">۱۳۵۰ ه.ش، روستای ازو، بالابلوک، فراه</span></div>
+                    <div class="info-item"><span class="label">ملیت:</span><span class="value" id="nationality">افغانستان</span></div>
+                    <div class="info-item"><span class="label">قومیت:</span><span class="value" id="ethnicity">سوری (زوری) • تبار سوریان و غوریان</span></div>
+                    <div class="info-item"><span class="label">پیشه:</span><span class="value" id="profession">فرمانده جهادی، مشاور، رئیس شورا</span></div>
+                </div>
+                <div class="text-block" id="bioText">
+                    <p><strong>حاجی عبدالغفور امینی (زوری)</strong>، فرزند مرحوم صلاح‌الدین زوری، در سال ۱۳۵۰ هجری شمسی در روستای ازو از توابع ولسوالی بالابلوک، ولایت فراه چشم به جهان گشود. او از قوم سوری (زوری) و از تبار سلسله‌های سوریان و غوریان است. پدرش مرحوم صلاح‌الدین زوری از بزرگان قوم زوری در منطقه بود.</p>
+                </div>
+                <div class="gallery-grid" id="galleryInfo"></div>
+                <button class="section-remove-btn" data-section="infoSection">🗑️ حذف این بخش</button>
+            </section>
+
+            <!-- نظامی -->
+            <section class="section" id="militarySection" data-section="military">
+                <div class="section-title" id="militaryTitle">⚔️ فعالیت‌های نظامی <small>جهاد علیه شوروی</small></div>
+                <div class="text-block" id="militaryText">
+                    <p>حاجی عبدالغفور امینی فعالیت‌های نظامی خود را از سن شانزده سالگی و همزمان با جنگ شوروی در افغانستان آغاز کرد. او در ولسوالی‌های بالابلوک، دلارام، بکواه و شیندند در صفوف مجاهدین علیه نیروهای شوروی حضور داشت و در جریان این درگیری‌ها چندین بار هدف حملات هوایی و زمینی قرار گرفت. پس از خروج نیروهای شوروی، تا پایان دورهٔ جهاد در مناطق مذکور به فعالیت ادامه داد.</p>
+                </div>
+                <div class="gallery-grid" id="galleryMilitary"></div>
+                <button class="section-remove-btn" data-section="militarySection">🗑️ حذف این بخش</button>
+            </section>
+
+            <!-- مجاهدین -->
+            <section class="section" id="mojahedinSection" data-section="mojahedin">
+                <div class="section-title" id="mojahedinTitle">🕊️ دوران مجاهدین <small>حکومت ربانی</small></div>
+                <div class="text-block" id="mojahedinText">
+                    <p>در دورهٔ حکومت مجاهدین به رهبری برهان‌الدین ربانی، مدتی در ولسوالی بالابلوک ایفای وظیفه نمود. ساخت چندین باب مکتب و نظارت بر جنگل‌های منطقه از جمله اقدامات او در آن دوره بوده است.</p>
+                </div>
+                <div class="gallery-grid" id="galleryMojahedin"></div>
+                <button class="section-remove-btn" data-section="mojahedinSection">🗑️ حذف این بخش</button>
+            </section>
+
+            <!-- سیاسی -->
+            <section class="section" id="politicalSection" data-section="political">
+                <div class="section-title" id="politicalTitle">🏛️ فعالیت‌های سیاسی و اجتماعی</div>
+                <div class="text-block" id="politicalText">
+                    <ul>
+                        <li>• <strong>سال ۱۳۹۶:</strong> انتخاب به عنوان رئیس شورای قوم زوری در ولایت فراه</li>
+                        <li>• <strong>سال ۱۳۹۶:</strong> حضور در لویه جرگهٔ ملی به نمایندگی از مردم فراه</li>
+                        <li>• <strong>۱۳۹۶ تا ۱۳۹۹:</strong> ریاست دفتر قوم زوری در فراه به مدت سه سال</li>
+                        <li>• <strong>سال ۱۳۹۸:</strong> مشارکت در عملیات پاکسازی طالبان از ولسوالی‌های اوبه و پشتون زورغون به رهبری عبدالقیوم رحیمی</li>
+                        <li>• <strong>سال ۱۳۹۹:</strong> انتصاب به عنوان مشاور مردمی والی وقت هرات (عبدالقیوم رحیمی) و عضویت دومین بار در لویه جرگهٔ ملی</li>
+                    </ul>
+                </div>
+                <div class="gallery-grid" id="galleryPolitical"></div>
+                <button class="section-remove-btn" data-section="politicalSection">🗑️ حذف این بخش</button>
+            </section>
+
+            <!-- عمرانی -->
+            <section class="section" id="civilSection" data-section="civil">
+                <div class="section-title" id="civilTitle">🏗️ خدمات عمرانی</div>
+                <div class="text-block" id="civilText">
+                    <ul>
+                        <li>• احداث جادهٔ ۷۵ کیلومتری ارتباطی ولسوالی بالابلوک به روستای ازو</li>
+                        <li>• پیگیری و نظارت بر پروژه‌های عمرانی در مناطق ازو، برزو و آبادی‌های مجاور</li>
+                    </ul>
+                </div>
+                <div class="gallery-grid" id="galleryCivil"></div>
+                <button class="section-remove-btn" data-section="civilSection">🗑️ حذف این بخش</button>
+            </section>
+
+            <!-- مهاجرت -->
+            <section class="section" id="migrationSection" data-section="migration">
+                <div class="section-title" id="migrationTitle">🧳 مهاجرت</div>
+                <div class="text-block" id="migrationText">
+                    <p>پس از سقوط جمهوری اسلامی افغانستان در سال ۱۴۰۰، حاجی عبدالغفور امینی(زوری) به ایران مهاجرت کرد. او در میان جامعهٔ مهاجرین افغان، به ویژه در میان قوم زوری، به عنوان فردی که به امور اجتماعی و حل مشکلات هموطنان رسیدگی می‌کند، شناخته می‌شود.</p>
+                </div>
+                <div class="gallery-grid" id="galleryMigration"></div>
+                <button class="section-remove-btn" data-section="migrationSection">🗑️ حذف این بخش</button>
+            </section>
+
+            <!-- شعار پایانی -->
+            <div style="background: #f2ede7; border-radius: 40px; padding: 18px 25px; text-align: center; margin: 20px 0 10px;" id="footerSlogan">
+                <p style="font-size: 1.2rem; font-weight: 500;" id="footerSlogan1">🇦🇫 با همدلی و همبستگی این ملت آباد میشود. 🇦🇫</p>
+                <p style="color: #4d3e31;" id="footerSlogan2">«این ملت با اتحاد ساخته میشود»</p>
+            </div>
+        </div>
+
+        <footer class="footer-links" id="footerLinks">
+            <div class="copy-link">
+                <span style="color:#f0ece6;">🔗</span>
+                <input type="text" id="siteUrlInput" value="https://zoori-biography.af" readonly>
+                <button id="copyUrlBtn">کپی لینک</button>
+            </div>
+            <div class="credit" id="footerCredit">سایت رسمی بیوگرافی • افتخار قوم زوری</div>
+        </footer>
+    </div>
+</div>
+
+<!-- لایت‌باکس -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <span class="close-lb" onclick="closeLightbox()">✕</span>
+    <img id="lightboxImg" src="" alt="تصویر بزرگ">
+</div>
+
+<script>
+    (function() {
+        // ===== اعتبارنامه =====
+        const validUser = '799899';
+        const validPass = '899799';
+        let loggedIn = false;
+
+        const loginBtn = document.getElementById('loginBtn');
+        const statusDiv = document.getElementById('loginStatus');
+        const userInput = document.getElementById('adminUser');
+        const passInput = document.getElementById('adminPass');
+        const adminTools = document.getElementById('adminTools');
+        const avatarFrame = document.getElementById('avatarContainer');
+        const avatarImg = document.getElementById('profileAvatar');
+
+        // ===== توابع اصلی =====
+        function setLoggedIn(state) {
+            loggedIn = state;
+            if (state) {
+                statusDiv.innerHTML = '✅ مدیر وارد شد (ویرایش فعال)';
+                statusDiv.style.color = '#1f6d3b';
+                loginBtn.textContent = 'خروج از پنل';
+                adminTools.classList.add('active');
+                avatarFrame.classList.add('editable');
+                // فعال‌سازی گالری‌ها
+                document.querySelectorAll('.gallery-grid').forEach(grid => {
+                    initGallery(grid);
+                });
+                // نمایش دکمه‌های حذف بخش
+                document.querySelectorAll('.section-remove-btn').forEach(btn => {
+                    btn.classList.add('visible');
+                });
+                // فعال‌سازی حالت ویرایش برای متون
+                document.querySelectorAll('.section-title, .text-block, .info-item .value, .profile-title h2, .profile-title .tag, .profile-title .meta, .slogan-box, .header-flag h1, .header-flag .sub, #footerSlogan1, #footerSlogan2, #footerCredit').forEach(el => {
+                    el.classList.add('editable-mode');
+                });
+            } else {
+                statusDiv.innerHTML = '⚪️ خارج از پنل';
+                statusDiv.style.color = '#4d3e31';
+                loginBtn.textContent = 'ورود به پنل';
+                adminTools.classList.remove('active');
+                avatarFrame.classList.remove('editable');
+                // غیرفعال‌سازی گالری‌ها
+                document.querySelectorAll('.gallery-item').forEach(item => {
+                    item.classList.remove('editable');
+                });
+                // مخفی کردن دکمه‌های حذف بخش
+                document.querySelectorAll('.section-remove-btn').forEach(btn => {
+                    btn.classList.remove('visible');
+                });
+                document.querySelectorAll('.section-title, .text-block, .info-item .value, .profile-title h2, .profile-title .tag, .profile-title .meta, .slogan-box, .header-flag h1, .header-flag .sub, #footerSlogan1, #footerSlogan2, #footerCredit').forEach(el => {
+                    el.classList.remove('editable-mode');
+                });
+            }
+        }
+
+        // ===== مقداردهی گالری =====
+        function initGallery(grid) {
+            // اگر گالری خالی است یک آیتم پیش‌فرض با دکمه افزودن اضافه کن
+            if (grid.children.length === 0) {
+                const emptyItem = document.createElement('div');
+                emptyItem.className = 'gallery-item';
+                if (loggedIn) emptyItem.classList.add('editable');
+                emptyItem.style.background = '#f0eae2';
+                emptyItem.innerHTML = '<span class="empty-placeholder">🖼️ بدون عکس</span>';
+                addGalleryButtons(emptyItem, grid);
+                grid.appendChild(emptyItem);
+            } else {
+                grid.querySelectorAll('.gallery-item').forEach(item => {
+                    if (loggedIn) item.classList.add('editable');
+                    addGalleryButtons(item, grid);
+                });
+            }
+        }
+
+        function addGalleryButtons(item, grid) {
+            // حذف دکمه‌های قبلی
+            const oldAdd = item.querySelector('.add-photo-btn');
+            if (oldAdd) oldAdd.remove();
+            const oldRemove = item.querySelector('.remove-photo-btn');
+            if (oldRemove) oldRemove.remove();
+
+            // دکمه افزودن عکس
+            const addBtn = document.createElement('div');
+            addBtn.className = 'add-photo-btn';
+            addBtn.innerHTML = '<span>➕</span>';
+            addBtn.title = 'افزودن عکس';
+            addBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                if (!loggedIn) { alert('🔐 لطفاً وارد پنل شوید.'); return; }
+                triggerFileUpload(item, grid);
+            });
+            if (loggedIn) addBtn.style.display = 'flex';
+            else addBtn.style.display = 'none';
+            item.appendChild(addBtn);
+
+            // دکمه حذف عکس (فقط اگر عکس وجود داشته باشد)
+            const img = item.querySelector('img');
+            const removeBtn = document.createElement('button');
+            removeBtn.className = 'remove-photo-btn';
+            removeBtn.innerHTML = '✕';
+            removeBtn.title = 'حذف عکس';
+            removeBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                if (!loggedIn) { alert('🔐 لطفاً وارد پنل شوید.'); return; }
+                if (confirm('آیا از حذف این عکس مطمئن هستید؟')) {
+                    item.innerHTML = '<span class="empty-placeholder">🖼️ بدون عکس</span>';
+                    item.style.background = '#f0eae2';
+                    item.classList.remove('has-image');
+                    // دکمه‌ها را دوباره بساز
+                    addGalleryButtons(item, grid);
+                }
+            });
+            if (loggedIn && img) removeBtn.style.display = 'flex';
+            else removeBtn.style.display = 'none';
+            item.appendChild(removeBtn);
+
+            // کلیک روی عکس برای لایت‌باکس
+            if (img) {
+                img.addEventListener('click', function() {
+                    openLightbox(item);
+                });
+            }
+        }
+
+        // ===== آپلود عکس =====
+        function triggerFileUpload(targetElement, grid) {
+            if (!loggedIn) {
+                alert('🔐 لطفاً ابتدا وارد پنل مدیریت شوید.');
+                return;
+            }
+            const fileInput = document.createElement('input');
+            fileInput.type = 'file';
+            fileInput.accept = 'image/*';
+            fileInput.onchange = function(e) {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(ev) {
+                        targetElement.innerHTML = '';
+                        const img = document.createElement('img');
+                        img.src = ev.target.result;
+                        img.alt = 'عکس';
+                        targetElement.appendChild(img);
+                        targetElement.style.background = 'transparent';
+                        targetElement.classList.add('has-image');
+                        addGalleryButtons(targetElement, grid);
+                        img.addEventListener('click', function() {
+                            openLightbox(targetElement);
+                        });
+                        alert('✅ عکس با موفقیت اضافه شد.');
+                    };
+                    reader.readAsDataURL(file);
+                }
+            };
+            fileInput.click();
+        }
+
+        // ===== لایت‌باکس =====
+        window.openLightbox = function(el) {
+            const img = el.querySelector('img');
+            if (img) {
+                const lb = document.getElementById('lightbox');
+                const lbImg = document.getElementById('lightboxImg');
+                lbImg.src = img.src;
+                lb.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+        };
+        window.closeLightbox = function() {
+            document.getElementById('lightbox').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        };
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeLightbox();
+        });
+
+        // ===== کپی لینک =====
+        document.getElementById('copyUrlBtn').addEventListener('click', function() {
+            const urlInput = document.getElementById('siteUrlInput');
+            urlInput.select();
+            try {
+                navigator.clipboard.writeText(urlInput.value).then(() => {
+                    alert('✅ لینک کپی شد: ' + urlInput.value);
+                }).catch(() => {
+                    document.execCommand('copy');
+                    alert('✅ لینک کپی شد');
+                });
+            } catch (e) {
+                document.execCommand('copy');
+                alert('✅ لینک کپی شد');
+            }
+        });
+
+        // ===== ورود/خروج =====
+        loginBtn.addEventListener('click', function() {
+            if (loggedIn) {
+                setLoggedIn(false);
+                return;
+            }
+            const u = userInput.value.trim();
+            const p = passInput.value.trim();
+            if (u === validUser && p === validPass) {
+                setLoggedIn(true);
+                alert('✅ ورود موفق! حالت ویرایش فعال شد.');
+            } else {
+                alert('❌ نام کاربری یا رمز اشتباه است.');
+            }
+        });
+
+        // ===== کلیک روی آواتار =====
+        avatarFrame.addEventListener('click', function() {
+            if (!loggedIn) {
+                alert('🔐 لطفاً ابتدا وارد پنل مدیریت شوید.');
+                return;
+            }
+            triggerFileUpload(avatarFrame, null);
+        });
+
+        // ===== ویرایش متن با دابل کلیک =====
+        document.querySelectorAll('.section-title, .text-block, .info-item .value, .profile-title h2, .profile-title .tag, .profile-title .meta, .slogan-box, .header-flag h1, .header-flag .sub, #footerSlogan1, #footerSlogan2, #footerCredit').forEach(el => {
+            el.addEventListener('dblclick', function(e) {
+                e.stopPropagation();
+                if (!loggedIn) {
+                    alert('🔐 لطفاً ابتدا وارد پنل مدیریت شوید.');
+                    return;
+                }
+                const current = this.innerText || this.textContent;
+                const newText = prompt('✏️ متن جدید را وارد کنید:', current);
+                if (newText !== null && newText.trim() !== '') {
+                    this.innerText = newText.trim();
+                }
+            });
+        });
+
+        // ===== افزودن عکس به گالری =====
+        document.getElementById('addPhotoGlobal').addEventListener('click', function() {
+            if (!loggedIn) {
+                alert('🔐 لطفاً ابتدا وارد پنل مدیریت شوید.');
+                return;
+            }
+            const galleries = document.querySelectorAll('.gallery-grid');
+            if (galleries.length === 0) {
+                alert('هیچ گالری در سایت وجود ندارد.');
+                return;
+            }
+            let msg = '🔹 روی کدام گالری می‌خواهید عکس اضافه کنید؟\n';
+            galleries.forEach((g, i) => {
+                const section = g.closest('.section');
+                const name = section ? section.dataset.section || 'بخش ' + (i+1) : 'گالری ' + (i+1);
+                msg += `${i+1}. ${name}\n`;
+            });
+            const choice = prompt(msg + '\nشماره گالری را وارد کنید:');
+            if (choice) {
+                const idx = parseInt(choice) - 1;
+                if (idx >= 0 && idx < galleries.length) {
+                    const grid = galleries[idx];
+                    const newItem = document.createElement('div');
+                    newItem.className = 'gallery-item';
+                    if (loggedIn) newItem.classList.add('editable');
+                    newItem.style.background = '#f0eae2';
+                    newItem.innerHTML = '<span class="empty-placeholder">🖼️ بدون عکس</span>';
+                    addGalleryButtons(newItem, grid);
+                    grid.appendChild(newItem);
+                    alert('✅ آیتم جدید به گالری افزوده شد. حالا روی دکمه ➕ کلیک کنید تا عکس را آپلود کنید.');
+                } else {
+                    alert('❌ شماره نامعتبر.');
+                }
+            }
+        });
+
+        // ===== افزودن بخش جدید =====
+        document.getElementById('addSectionBtn').addEventListener('click', function() {
+            if (!loggedIn) {
+                alert('🔐 لطفاً ابتدا وارد پنل مدیریت شوید.');
+                return;
+            }
+            const title = prompt('📄 عنوان بخش جدید:');
+            if (title && title.trim() !== '') {
+                const content = prompt('📝 متن بخش جدید:');
+                if (content !== null) {
+                    const contentArea = document.getElementById('contentArea');
+                    const newSection = document.createElement('section');
+                    newSection.className = 'section';
+                    newSection.dataset.section = 'custom-' + Date.now();
+                    newSection.innerHTML = `
+                        <div class="section-title" style="cursor:pointer;">${title.trim()}</div>
+                        <div class="text-block" style="cursor:pointer;"><p>${content.trim() || 'متن جدید...'}</p></div>
+                        <div class="gallery-grid"></div>
+                        <button class="section-remove-btn visible">🗑️ حذف این بخش</button>
+                    `;
+                    // ویرایش متن
+                    newSection.querySelectorAll('.section-title, .text-block').forEach(el => {
+                        el.addEventListener('dblclick', function(e) {
+                            e.stopPropagation();
+                            if (!loggedIn) return;
+                            const current = this.innerText || this.textContent;
+                            const newText = prompt('✏️ متن جدید:', current);
+                            if (newText !== null && newText.trim() !== '') {
+                                this.innerText = newText.trim();
+                            }
+                        });
+                        if (loggedIn) el.classList.add('editable-mode');
+                    });
+                    // گالری
+                    const grid = newSection.querySelector('.gallery-grid');
+                    initGallery(grid);
+                    // دکمه حذف
+                    const rmBtn = newSection.querySelector('.section-remove-btn');
+                    rmBtn.addEventListener('click', function() {
+                        if (confirm('آیا از حذف این بخش مطمئن هستید؟')) {
+                            newSection.remove();
+                            alert('✅ بخش حذف شد.');
+                        }
+                    });
+                    if (loggedIn) rmBtn.classList.add('visible');
+                    contentArea.appendChild(newSection);
+                    alert('✅ بخش جدید اضافه شد.');
+                }
+            }
+        });
+
+        // ===== حذف بخش =====
+        document.getElementById('removeSectionBtn').addEventListener('click', function() {
+            if (!loggedIn) {
+                alert('🔐 لطفاً ابتدا وارد پنل مدیریت شوید.');
+                return;
+            }
+            alert('🔹 روی دکمه 🗑️ حذف این بخش در پایین هر بخش کلیک کنید.');
+        });
+
+        // دکمه‌های حذف بخش موجود
+        document.querySelectorAll('.section-remove-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                if (!loggedIn) {
+                    alert('🔐 لطفاً وارد پنل شوید.');
+                    return;
+                }
+                const section = this.closest('.section');
+                if (section && confirm('آیا از حذف این بخش مطمئن هستید؟')) {
+                    section.remove();
+                    alert('✅ بخش حذف شد.');
+                }
+            });
+        });
+
+        // ===== بروزرسانی =====
+        document.getElementById('refreshAdmin').addEventListener('click', function() {
+            if (loggedIn) {
+                setLoggedIn(true);
+                alert('✅ حالت مدیریت بروزرسانی شد.');
+            } else {
+                alert('⚪️ شما خارج از پنل هستید.');
+            }
+        });
+
+        // ===== مقداردهی اولیه =====
+        document.querySelectorAll('.gallery-grid').forEach(grid => {
+            initGallery(grid);
+        });
+        setLoggedIn(false);
+
+        // ===== کلید Enter =====
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                const active = document.activeElement;
+                if (active === userInput || active === passInput) {
+                    loginBtn.click();
+                }
+            }
+        });
+
+        console.log('🇦🇫 سایت بیوگرافی - دکمه‌های مدیریت فقط برای مدیر نمایش داده می‌شوند');
+    })();
+</script>
+
+</body>
+</html>
+```
